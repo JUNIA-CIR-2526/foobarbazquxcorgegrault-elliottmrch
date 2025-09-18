@@ -22,6 +22,8 @@ public class Foo {
     }
 
     public void addGrault() {
+        Grault grault = new Grault(this);
+        this.graults.add(grault);
     }
 
     public Bar getBar() {
