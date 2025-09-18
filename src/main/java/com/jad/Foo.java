@@ -13,6 +13,7 @@ public class Foo {
     public Foo(Bar bar) {
         this.bar = bar;
         this.bazs = new ArrayList<Baz>();
+        this.qux = new Qux();
     }
 
     public void addBaz(Baz baz) {
