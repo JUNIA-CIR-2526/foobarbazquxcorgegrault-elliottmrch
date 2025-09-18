@@ -18,4 +18,28 @@ public class Foo {
 
     public void addGrault() {
     }
+
+    public Bar getBar() {
+        return bar;
+    }
+
+    public List<Baz> getBazs() {
+        return bazs;
+    }
+
+    public Qux getQux() {
+        return qux;
+    }
+
+    public Corge getCorge() {
+        return corge;
+    }
+
+    public void setCorge(Corge corge) {
+        this.corge = corge;
+    }
+
+    public List<Grault> getGraults() {
+        return graults;
+    }
 }
